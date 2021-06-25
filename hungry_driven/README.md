@@ -32,3 +32,8 @@ Obviously, with 3 and 4 passes, the curve becomes harsher.
 Be sure first that you can "make" the example provided in the logue-sdk repository.
 Then clone this repo, modifying the value of __PLATFORMDIR__ in the Makefile to match
 the platform directory.
+
+## Improvements
+
+Improvements, code PR and general suggestions of the code are welcomed, as I'm not
+familiar with these kind of C-language projects and would love to learn more.
