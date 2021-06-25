@@ -6,6 +6,8 @@ Custom oscillators and effects for Korg NTS-1, minilogue xd, prologue and other 
 
 ### Hungry Driven
 
+[Download the file](https://github.com/liopic/logue-osc-fx/raw/main/hungry_driven.ntkdigunit)
+
 This mod effect is a __Parabolic Soft-clipping Overdrive__ that can improve your sounds,
 from a subtle colouring to a clear distortion. It can feedback itself up to 4 times: it's
 like having 4 overdrive pedals connected in series!
