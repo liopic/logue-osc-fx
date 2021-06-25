@@ -1,5 +1,6 @@
-# Prerequisites
-*.d
+# Temp directories
+**/.dep/**
+**/build/**
 
 # Object files
 *.o
@@ -35,18 +36,11 @@
 *.i*86
 *.x86_64
 *.hex
+*.bin
+*.dfu
 
 # Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
