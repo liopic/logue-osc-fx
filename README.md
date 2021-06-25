@@ -12,11 +12,11 @@ This mod effect is a __Parabolic Soft-clipping Overdrive__ that can improve your
 from a subtle colouring to a clear distortion. It can feedback itself up to 4 times: it's
 like having 4 overdrive pedals connected in series!
 
-* Param A - Time : Controls how many overdrive pedals are used, from 1 (left) to 4 (right).
+* Param A - Time : Controls how many overdrive pedals are chained, from 1 (left) to 4 (right).
 * Param B - Depth : Controls dry:wet fx factor, from dry (left) to wet (right).
 
-Suggestions: For some light punch, use param A full-left and param B at 3/4. For great
-overdrive, set param A to 3/4 and param B to 1/4 and turn right it slowly, beware your
+Suggestions: For some light punch, use param A full-left and param B at 3/4. For a great
+overdrive, set param A to 3/4 and param B to 1/4 and turn it right slowly, but beware your
 speakers and ears!
 
 ## General installation instructions
