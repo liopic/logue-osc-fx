@@ -25,7 +25,10 @@ signal are processed in a symmetric way).
 * Yellow line shows no effect (input value = output value).
 * Red line shows the overdrive effect with 1 single pass (that is, applies the formula).
 * Blue line shows the effect with 2 passes.
-Obviously, with 3 and 4 passes, the curve becomes harsher.
+Obviously, with several passes, the curve becomes harsher.
+
+In order to compensate the increase of volume in each pass, the final result is
+multiplied by 0.7^passes.
 
 ## Development instructions
 

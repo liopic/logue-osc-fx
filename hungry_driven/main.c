@@ -1,13 +1,15 @@
 #include "usermodfx.h"
 
 static float param_time, param_depth;
-const int MAX_ITERATIONS = 4;
+const int MAX_ITERATIONS = 10;
+const float VOLUME_COMPENSATION = 0.7;  // Empirically found
 
 void MODFX_INIT(uint32_t platform, uint32_t api);
 
 float overdrive(const float x, const float time) {
   // Between 1 and MAX_ITERATIONS, given time=[0, 1]
   int iterations = 1 + time*0.99*MAX_ITERATIONS;
+  float accumulated_compensation = 1;
 
   const int isNegative = x < 0;
   float overdriven = x;
@@ -19,8 +21,10 @@ float overdrive(const float x, const float time) {
   while (iterations--) {
     // y = -x^2 + 2x
     overdriven = 2*overdriven - (overdriven*overdriven);
-    overdriven =
+    accumulated_compensation *= VOLUME_COMPENSATION;
   }
+
+  overdriven *= accumulated_compensation;
 
   if (isNegative) {
     overdriven = -overdriven;
